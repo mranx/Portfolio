@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/14dbade952.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.all.css">
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <header>
+    <!-- main Top bar section  -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <div class="header-message">Welcome to our online store!</div>
+        </div>
+        <div class="top-bar-right">
+          <div class="header-language">
+            <select class="web-language" name="web-language" id="">
+              <option value="English (USD)">English (USD)</option>
+              <option value="French (EUR)">French (EUR)</option>
+              <option value="Japanes (JPY)">Japanes (JPY)</option>
+            </select>
+          </div>
+          <div class="header-user-links">
+            <a href="./e-commerce-project-main/html/Log-in.html">Login or Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main-header">
+        <div class="row">
+          <div class="main-logo">
+            <div class="logo">
+              <a href="./index.html" >
+                <img src="./img/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="search-bar">
+            <div class="search-block">
+              <form action="#" class="form-search">
+                <div class="form-content">
+                  <div class="category">
+                    <select class="chosen-select">
+                      <option value="All Categories">All Categories</option>
+                      <option value="Accessories">Accessories</option>
+                      <option value="Trousers">Trousers</option>
+                      <option value="Tables">Tables</option>
+                      <option value="New Arrivals">New Arrivals</option>
+                      <option value="Storage">Storage</option>
+                    </select>
+                  </div>
+                  <div class="inner">
+                    <input
+                      type="text"
+                      class="input"
+                      placeholder="Search here.."
+                    />
+                  </div>
+                  <button class="btn-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="items">
+            <div class="header-control">
+              <div class="addtocart">
+                <a href="#"> <i class="fa-solid clr fa-magnifying-glass"></i> </a>
+              </div>
+              <div class="addtocart">
+                <a href="cart.html"
+                  ><i class="fa fa-heart-o" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div class="addtocart">
+                <a href="#"
+                  ><i class="fa-solid clr fa-cart-shopping"></i></a>
+              </div>
+              <div class="addtocart">
+                <a href="#"
+                  ><i class="fa-solid clr fa-bars"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-nav-container">
+      <div class="container">
+        <div class="header-nav">
+          <div class="nav-categories">
+            <div class="block-title">
+              <span class="icon-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <span class="text">
+                <select name="category" data-placeholder="">
+                  <option value="All Categories">All Categories</option>
+
+                  <option value="Accessories">Accessories</option>
+                  <option value="Trousers">Trousers</option>
+                  <option value="Tables">Tables</option>
+                  <option value="New Arrivals">New Arrivals</option>
+                  <option value="Storage">Storage</option>
+                </select>
+              </span>
+            </div>
+          </div>
+          <div class="nav-header">
+            <ul>
+                <li><a href="./index.html">HOME</a></li> 
+                <li><a href="./cart.html">SHOPPING CART</a></li>
+                <li><a href="./404page.html">404 ERROR</a></li>
+                <li><a href="./about.html">ABOUT US</a></li>
+               
+                <!-- <li><a href="#">CONTACT US</a></li> -->
+                 <li> <div class="dropdown">
+                  <button  style="font-weight: 500;" class="dropbtn">OTHER PAGES
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="./e-commerce-project-main/html/Log-in.html" target="_blank">Signin/Register</a>
+                    <a href="./e-commerce-project-main/html/Contact-us.html" target="_blank" >Contact Us</a>
+                    <a href="./e-commerce-project-main/html/Single-product.html" target="_blank" >Single Product</a>
+                    <a href="./e-commerce-project-main/html/Checkout.html" target="_blank" >CHECKOUT</a>
+                  </div>
+                </div> </li>
+              </ul>
+           </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="site-contenr">
+      <div class="site-main">
+        <div class="container">
+          <div class="row direction">
+            <div class="main-content-cart">
+              <h3 class="cart-heading">Shopping Cart</h3>
+            </div>
+            <div class="main-content">
+              <table class="shop_table">
+                <thead></thead>
+                <tbody>
+                  <tr class="cart-items">
+                    
+                    <td class="product-thumbnail">
+                      <a href="#"><img src="./img/cart-item-2.jpg" alt="" /></a>
+                    </td>
+                    <td class="product-name">
+                      <a href="#">Mini swing dress</a> <br />
+                      <span style="color: #888888;">Black,</span> <span style="color: #888888;">XXL</span>
+                    </td>
+                    <td class="product-quantity">
+                      <div class="quantity">
+                        <div class="control">
+                          <a class="btn-number" href="#">+</a>
+                          <input class="input-number" type="number" value="0" /><a
+                           class="btn-number" href="#"
+                            >-</a
+                          >
+                        </div>
+                      </div>
+                    </td>
+                    <td class="product-price">
+                      <span class="amount">$ 40</span>
+                    </td>
+                    <td class="product-remove">
+                        <a href="#"><i class="fa-solid fa-trash"></i></a>
+                      </td>
+                  </tr>
+                  <tr class="cart-items">
+                    
+                    <td class="product-thumbnail">
+                      <a href="#"><img src="./img/cart-item-1.jpg" alt="" /></a>
+                    </td>
+                    <td class="product-name">
+                      <a href="#"> 	
+                        Long Sleeve Midi</a> <br />
+                      <span style="color: #888888;">Brown,</span> <span style="color: #888888;">XL</span>
+                    </td>
+                    <td class="product-quantity">
+                      <div class="quantity">
+                        <div class="control">
+                          <a class="btn-number" href="#">+</a>
+                          <input class="input-number" type="number" value="1" /><a
+                           class="btn-number" href="#"
+                            >-</a
+                          >
+                        </div>
+                      </div>
+                    </td>
+                    <td class="product-price">
+                      <span class="amount">$ 45</span>
+                    </td>
+                    <td class="product-remove">
+                        <a href="#"><i class="fa-solid fa-trash"></i></a>
+                      </td>
+                  </tr>
+                  <tr class="cart-items">
+                    
+                    <td class="product-thumbnail">
+                      <a href="#"><img src="./img/cart-item-3.jpg" alt="" /></a>
+                    </td>
+                    <td class="product-name">
+                      <a href="#"> 	
+                        Square neck top</a> <br />
+                      <span style="color: #888888;">White,</span> <span style="color: #888888;"> XL</span>
+                    </td>
+                    <td class="product-quantity">
+                      <div class="quantity">
+                        <div class="control">
+                          <a class="btn-number" href="#">+</a>
+                          <input class="input-number" type="number" value="3" /><a
+                           class="btn-number" href="#"
+                            >-</a
+                          >
+                        </div>
+                      </div>
+                    </td>
+                    <td class="product-price">
+                      <span class="amount">$ 45</span>
+                    </td>
+                    <td class="product-remove">
+                        <a href="#"><i class="fa-solid fa-trash"></i></a>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td colspan="5" class="action">
+                      <div class="coupon">
+                        <label class="coupon_code">Coupon Code:</label>
+                        <input type="text" class="input-text" placeholder="Promotion code here">
+                        <a href="#" class="button"><i class="fa-regular fa-arrow-right-long"></i></a>
+                      </div>
+                      <div class="order-total">
+                        <span class="title">
+                          Total Price:
+                        </span>
+                        <span class="total-price">
+                          $100
+                        </span>
+                        </div>
+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="control-cart">
+                <button class="btn">CONTINUE SHOPPING</button> 
+                <button class="btn">CHECKOUT</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- Footer  -->
+    <section>
+      <div class="footer">
+        <div class="footer-left">
+          <img src="../image/logo-light (1).png" alt="">
+          <p id="fl-loc"><i class="fa-solid fa-location-dot" ></i> &nbsp; 45 Grand Central Terminal New York,NY 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1017 nited State USA</p>
+           <p id="fl-phone"><i class="fa-solid fa-phone"></i> &nbsp;(+123) 456 789 </p> 
+           <p id="fl-mail"><i class="fa-solid fa-envelope"></i> &nbsp;alihassan@gmail.com - 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mranx24@gmail.com</p>
+            <p id="fl-time"><i class="fa-solid fa-clock"></i>&nbsp;Mon-Sat 9:00pm - 5:00pm Sun : Closed</p>
+        </div>
+        <div class="footer-mid1">
+          
+              <h2>QUICK MENU</h2>
+              <ul>
+                <li>New arrivals</li>
+                <li>Life style</li>
+                <li>Trousers</li>
+                <li>Bags</li>
+                <li>Shoes</li>
+              </ul>
+        </div>
+        <div class="footer-mid2">
+          <h2>INFORMATION</h2>
+              <ul>
+                <li>FAQs</li>
+                <li>Track Order</li>
+                <li>Delivery</li>
+                <li>Contact Us</li>
+                <li>Return</li>
+              </ul>
+        </div>
+        <div class="footer-right">
+          <h2>NEWSLETTER</h2>
+          <p>Get notified of new products, limited releases, and more. </p>
+          <input type="email" placeholder="Your email">
+          <input type="button" value="SUBSCRIBE">
+          <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+  </section>
+  </body>
+</html>

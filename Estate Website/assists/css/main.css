@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-size: 14px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.container-fluid {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* Top BAr  */
+
+.icons-items {
+  list-style: none;
+}
+.items {
+  align-items: center;
+  border: 2px solid #888;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+.items:hover {
+  border: 2px solid #888;
+  background-color: #888;
+}
+.items:hover a {
+  color: white;
+  cursor: pointer;
+}
+.items i {
+  font-size: 15px;
+}
+.items a {
+  color: rgb(77, 75, 75);
+  cursor: pointer;
+}
+
+/* Nav-bar  */
+.nav-bar {
+  background-color: #2d2d44;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.search-btn {
+  left: 81%;
+}
+.navbar-toggler {
+  background-color: white;
+}
+form.mob-form {
+  display: none !important;
+}
+/* About Property Section  */
+.about-icon i{
+  font-size: 55px;
+  color: #888;
+  transition: 0.5s;
+
+}
+.about-icon{
+  transition: 0.5s;
+}
+.about-icon:hover{
+  transform: rotate(-55deg);
+  border-color:red !important ;
+  border-radius: 8px;
+
+}
+.about-icon:hover i{
+  transform: rotate(55deg);
+  color: red;
+}
+
+/* Property Details  */
+.property-bg-img{
+  background-image: url(../images/detail.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.detail-content{
+ background-color: rgba(255, 255, 255, 0.651);
+}
+
+
+
+
+
+@media screen AND (max-width: 992px) {
+  form.mob-form {
+    display: block !important;
+  }
+  form.pc-form {
+    display: none !important;
+  }
+  .search-btn {
+    top: 0;
+  }
+}
+@media screen AND (max-width: 576px) {
+  .top-bar div div div:nth-child(n) {
+    max-width: 25%;
+  }
+}

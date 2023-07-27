@@ -1,0 +1,170 @@
+.footer{
+    width: 100%;
+    background-color: #151515;
+    height: 50px;
+    display: flex;
+}
+.low-footer{
+    width: 100%;
+    background-color: #151515;
+    height: 20vh;
+    margin-top: 0%;
+}
+.footer-left{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 22%;
+    color: rgb(134, 134, 134);
+    line-break: strict;
+}
+#fl-loc{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-phone{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-mail{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-time{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-loc:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-phone:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-mail:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-time:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+i{
+    color: #CE987A;
+}
+.footer-mid1{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid1 h2{
+    color: white;
+}
+.footer-mid1 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid1 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-mid2{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid2 h2{
+    color: white;
+}
+.footer-mid2 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid2 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-right{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 25%;
+}
+.footer-right h2{
+    color: white;
+}
+.footer-right p{
+    color:rgb(134, 134, 134);
+    font-size: large;
+}
+.footer-right input[type=email]{
+    height: 5vh;
+    width: 60%;
+    text-align: center;
+    font-size: large;
+    margin-top: 4%;
+}
+.footer-right input[type=button]{
+    color: white;
+    background-color: #CE987A;
+    height: 6vh;
+    width: 30%;
+    margin-left: 2%;
+}
+.footer-right input[type=button]:hover{
+   cursor: pointer;
+}
+.footer-right i{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: white;
+    transition: 0.2s linear;
+}
+.footer-right i:hover{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: #CE987A;
+    cursor: pointer;
+}
+#footer-hr{
+    color: #CE987A;
+}
+
+@media screen AND (max-width:1287px){
+    #fl-loc{
+        font-size: medium;
+    }
+    #fl-phone{
+        font-size: medium;
+    }
+    #fl-mail{
+        font-size: medium;
+    }
+    #fl-time{
+        font-size: medium;
+    }
+    
+}
+@media screen AND (max-width:1167px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 250vh;
+    }
+    .footer-left{
+      width: 90%;
+    }
+    .footer-mid1{
+      width: 90%;
+    }
+    .footer-mid2{
+      width: 90%;
+    }
+    .footer-right{
+      width: 90%;
+    }
+
+}

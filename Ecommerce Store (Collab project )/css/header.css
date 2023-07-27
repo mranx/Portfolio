@@ -1,0 +1,244 @@
+:root {
+  --font-size: 14px;
+  --main-color:#ce987a;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Top-Bar Section  */
+
+.top-bar {
+  background-color:var(--main-color);
+}
+div.top-bar > div{
+  height: 50px;
+}
+.container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-bar-left {
+  display: inline-block;
+  color: #fff;
+  line-height: 48px;
+}
+.top-bar-right {
+  float: right;
+  display: flex;
+  line-height: 48px;
+}
+.web-language {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+.web-language > option:nth-child(n) {
+  color: black;
+  font-size: var(--font-size);
+  background-color: #fff;
+}
+.header-user-links {
+  padding-left: 15px;
+}
+.header-user-links > a:nth-child(1) {
+  text-decoration: none;
+  color: #fff;
+}
+/* main header  */
+.main-header {
+  padding: 50px 0;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-logo {
+  width: 25%;
+}
+.logo {
+  float: left;
+
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.search-bar {
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.form-search .form-content {
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 584px;
+  padding: 0;
+  border: 1px solid #eee;
+  height: 43px;
+  border-radius: 43px;
+}
+.category {
+  width: 154px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.chosen-select {
+  background-color: transparent;
+  border: none;
+  padding-left: 20px;
+  color: #888;
+}
+.inner {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.input {
+  border: none;
+  width: 100%;
+  color: #888;
+  height: 42px;
+  border-radius: 0;
+  padding: 4px 20px;
+  max-width: 100%;
+  background: none;
+}
+input[type=text]:focus{
+  outline: none; 
+}
+.btn-search {
+  width: 60px;
+  background: transparent;
+  font-size: 21px;
+  font-weight: normal;
+  color: #888;
+  padding: 14px 0;
+  margin: 0;
+  border: none;
+}
+.fa-heart-o,.clr {
+  font-size: 25px;
+  margin-top: 5px;
+  color: black;
+}
+div.items > div > div:nth-child(1){
+  display: none;
+}
+.fa-solid:hover{
+  color:var(--main-color);
+}
+.fa-heart-o:hover {
+  color:var(--main-color);
+}
+div.items > div > div:nth-child(n) {
+  margin-right: 20px;
+}
+.header-control {
+  display: flex;
+  margin-top: 10px;
+}
+.header-nav-container {
+  background-color: black;
+}
+.header-nav {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.nav-categories {
+  background-color:var(--main-color);
+  width: 270px;
+}
+.block-title {
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: auto;
+  padding: 17px 30px;
+  letter-spacing: 0.05em;
+}
+.icon-bar {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.icon-bar span {
+  width: 20px;
+  display: block;
+  background: #fff;
+  height: 2px;
+  margin-bottom: 5px;
+}
+div > span.text > select {
+  color: white;
+  background: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+div > span.text > select > option:nth-child(n) {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.349);
+}
+div.nav-header > ul {
+  display: flex;
+}
+div.nav-header > ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+div.nav-header > ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 13px;
+}
+.nav-header ul li a::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: var(--main-color);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: 0.5s;
+}
+.nav-header ul li a:hover:after{
+  width: 100%;
+}
+div.nav-header > ul li a:hover{
+  color: var(--main-color);
+}
+@media screen AND (max-width: 1100px) {
+  .nav-categories {
+    display: none;
+  }
+}
+@media screen AND (max-width: 770px) {
+  .top-bar-left{
+    display: none;
+  }
+  div.top-bar > div{
+    display: flex;
+    justify-content: center;
+  }
+  div.items > div > div:nth-child(1){
+    display: block;
+  }
+  .search-bar {
+    display: none;
+  }
+  div.nav-header > ul li a {
+    margin-right: 5;
+  }
+}

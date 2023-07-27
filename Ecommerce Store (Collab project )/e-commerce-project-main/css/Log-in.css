@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font: 14px;
+    --L-margin:50px;
+    --f-color:CE987A;
+    --h-font:24px;
+}
+/* ---log-in-- */
+#log-in-head
+{
+    font-size: var(--h-font);
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #222;
+    margin-left: var(--L-margin);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+}
+.top-most-box{
+    margin-left: var(--L-margin);
+    display: flex;
+}
+.sub1-top-most-box{
+    border: 1px solid #f1f1f1;
+    margin: 0;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    font-weight: 100;
+    width: 40%;
+}
+
+.sub1-top-most-box h1{
+    font-size: 20px;
+    font-weight:600;
+}
+.go-through{
+    display: block;
+}
+.sub1-tmb1{
+    border: 1px solid #f1f1f1;
+    margin: 0;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    font-weight: 100;
+    width: 92%;
+}
+.sub1-tmb2{
+    border-top: 1px solid #f1f1f1;
+    margin: 0;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    width: 92%;
+    font-weight: 100;
+    
+}
+.sub1-tmb2 h6{
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #aaa;
+}
+
+#social-link2{
+    margin-left: 20px;
+}
+label{
+    font-size: large;
+    color: #aaa;
+}
+.go-through span{
+    font-weight: bold;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    height: 6vh;
+    margin-top: 2%;
+    border: 1px rgba(102, 94, 94, 0.171) solid;
+}
+input[type=checkbox]{
+    margin-right: 2%;
+}
+input[type=text]:hover,input[type=password]:hover{
+    border: 1px rgb(230, 95, 95) solid;
+}
+#f-pass{
+    font-size: medium;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#log-in{
+    margin-top: 5%;
+    display: inline-block;
+    padding: 13px 20px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: var(--font);
+    font-weight: 700;
+    border-radius: 0;
+    background-color: #CE987A;
+}
+#log-in:hover{
+    cursor: pointer;
+}
+
+
+/* ---register-- */
+
+.sub2-top-most-box{
+    border: 1px solid #f1f1f1;
+    margin-left: 2%;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    font-weight: 500;
+    width: 40%;
+}
+.sub2-top-most-box h1{
+    font-size: 20px;
+    font-weight:600;
+}
+
+.sub2-tmb1{
+    border: 1px solid #f1f1f1;
+    margin: 0;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    font-weight: 100;
+    width: 92%;
+}
+.sub2-tmb2{
+    border-top: 1px solid #f1f1f1;
+    margin: 0;
+    border-bottom: 0;
+    font-size: var(--font);
+    padding: 25px 40px;
+    color: #222;
+    width: 92%;
+    font-weight: 100;
+    
+}
+input[type=email]{
+    width: 100%;
+    height: 6vh;
+    margin-top: 2%;
+    border: 1px rgba(102, 94, 94, 0.171) solid;
+}
+input[type=email]:hover{
+    border: 1px rgb(230, 95, 95) solid;
+}
+#f-pass2{
+    font-size: medium;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#Reg{
+    margin-top: 5%;
+    display: inline-block;
+    padding: 13px 20px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: var(--font);
+    font-weight: 700;
+    border-radius: 0;
+    background-color: #CE987A;
+}
+#Reg:hover{
+    cursor: pointer;
+}
+
+
+@media screen And (max-width:944px) {
+    .top-most-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub1-top-most-box{
+        width: 70%;
+    }
+    .sub2-top-most-box{
+        width: 75%;
+    }
+}
+
+
+/* ---footer---- */
+
+
+.footer{
+    width: 100%;
+    background-color: #151515;
+    height: 50vh;
+    display: flex;
+}
+.low-footer{
+    width: 100%;
+    background-color: #151515;
+    height: 20vh;
+    margin-top: 0%;
+}
+.footer-left{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 22%;
+    color: rgb(134, 134, 134);
+    line-break: strict;
+}
+#fl-loc{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-phone{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-mail{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-time{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-loc:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-phone:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-mail:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-time:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+i{
+    color: #CE987A;
+}
+.footer-mid1{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid1 h2{
+    color: white;
+}
+.footer-mid1 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid1 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-mid2{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid2 h2{
+    color: white;
+}
+.footer-mid2 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid2 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-right{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 25%;
+}
+.footer-right h2{
+    color: white;
+}
+.footer-right p{
+    color:rgb(134, 134, 134);
+    font-size: large;
+}
+.footer-right input[type=email]{
+    height: 5vh;
+    width: 60%;
+    text-align: center;
+    font-size: large;
+    margin-top: 4%;
+}
+.footer-right input[type=button]{
+    color: white;
+    background-color: #CE987A;
+    height: 6vh;
+    width: 30%;
+    margin-left: 2%;
+}
+.footer-right input[type=button]:hover{
+   cursor: pointer;
+}
+.footer-right i{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: white;
+    transition: 0.2s linear;
+}
+.footer-right i:hover{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: #CE987A;
+    cursor: pointer;
+}
+#footer-hr{
+    color: #CE987A;
+}
+
+@media screen AND (max-width:1287px){
+    #fl-loc{
+        font-size: medium;
+    }
+    #fl-phone{
+        font-size: medium;
+    }
+    #fl-mail{
+        font-size: medium;
+    }
+    #fl-time{
+        font-size: medium;
+    }
+    
+}
+@media screen AND (max-width:1167px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .footer-left{
+      width: 90%;
+    }
+    .footer-mid1{
+      width: 90%;
+    }
+    .footer-mid2{
+      width: 90%;
+    }
+    .footer-right{
+      width: 90%;
+    }
+
+}

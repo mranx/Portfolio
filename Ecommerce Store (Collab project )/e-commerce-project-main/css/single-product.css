@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Top-main-sp-con{
+    display: flex;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 80vh;
+    flex-direction: row;
+}
+.tm-left{
+    
+    height: 90vh;
+    width: 45%;
+    
+}
+.tm-left img{
+    height: 80vh;
+}
+.tm-left img:hover{
+    zoom: 105%;
+    cursor:pointer;
+}
+.tm-right{
+  
+    height: 100vh;
+    width: 45%;
+}
+#tmr-head{
+    color: #464545;
+}
+#tmr-rating{
+    line-height: 60px;
+    font-size: large;
+    color: #868686;
+}
+#tmr-is{
+    text-decoration: none;
+    color:rgb(206, 152, 122);
+    font-weight: 600;
+    padding-left: 1%;
+}
+#tmr-price{
+    line-height: 60px;
+}
+#tmr-qua{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #868686;
+}
+#tmr-size{
+    color: #868686;
+    line-height: 60px;
+}
+#tmr-btn-xs{
+   
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color: #868686;
+    border: 1px #868686 solid;
+}
+#tmr-btn-s{
+   margin-left: 1%;
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color: #868686;
+    border: 1px #868686 solid;
+}
+#tmr-btn-m{
+    margin-left: 1%;
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color: #868686;
+    border: 1px #868686 solid;
+}
+#tmr-btn-l{
+    margin-left: 1%;
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(206, 152, 122);
+    border: 1px #868686 solid;
+}
+#tmr-btn-xl{
+    margin-left: 1%;
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color: #868686;
+    border: 1px #868686 solid;
+    
+}
+#tmr-btn-xxl{
+    margin-left: 1%;
+    width: 8%;
+    height: 4vh;
+    font-size: large;
+    font-weight: 500;
+    color: #868686;
+    border: 1px #868686 solid;
+   
+}
+#tmr-btn-xs:hover,#tmr-btn-s:hover,#tmr-btn-m:hover,#tmr-btn-xl:hover,#tmr-btn-xxl:hover{
+    background-color: rgb(206, 152, 122);
+    color: white;
+    cursor: pointer;
+}
+
+#tmr-btn-l:hover{
+    color: #868686;
+    background-color: white;
+    cursor: pointer;
+}
+#wish-link{
+    line-height: 90px;
+    text-decoration: none;
+    color: #868686;
+}
+#size-chart-link{
+    line-height: 90px;
+    text-decoration: none;
+    color: #868686;
+    margin-left: 10%;
+}
+#wish-link:hover,#size-chart-link:hover{
+    color: rgb(206, 152, 122);
+}
+#cart-num{
+    width: 8%;
+    height: 5vh;
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    color: black;
+}
+#btn-add-to-cart{
+    margin-left: 5%;
+    width: 25%;
+    height: 6vh;
+    background-color: rgb(206, 152, 122);
+    color: white;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+.middle-top-sp-con{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.middle-top-sp-con h1{
+    
+    color: #868686;
+}
+.middle-top-sp-con h1:hover{
+    color:rgb(206, 152, 122) ;
+    cursor: pointer;
+    
+}
+.middle-top-sp-con p{
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.below-top-sp-con{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.below-top-sp-con h1{
+    color: #868686;
+}
+.below-top-sp-con h1:hover{
+    color:rgb(206, 152, 122) ;
+    cursor: pointer;
+    
+}
+.bt-sp-tab{
+    margin-top: 3%;
+    font-size: large;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    font-weight: normal;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: 15vh;
+    
+}
+.bt-sp-tab td{
+    display: table-cell;
+}
+#bt-sp-tab-col1{
+    width: 250px;
+}
+#bt-sp-tab-col2{
+    width: 500px;
+}
+
+.belower-top-sp-con{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.belower-top-sp-con h1{
+    color: #868686;
+}
+.belower-top-sp-con h1:hover{
+    color:rgb(206, 152, 122) ;
+    cursor: pointer;
+    
+}
+.belower-top-sp-con h3{
+    color: #363636;
+    margin-top: 2%;
+}
+.belower-top-sp-con p{
+    color: #363636;
+    line-height: 30px;
+    font-size: 20px;
+}
+.belower-top-sp-con label{
+    color: #363636;
+    margin-top: 1%;
+    font-size: 20px;
+    display: block;
+}
+.belower-top-sp-con textarea{
+    color: #363636;
+    font-size: 20px;
+    display: block;
+    width: 70%;
+    height: 40vh;
+    padding: 1%;
+    
+}
+.belower-top-sp-con textarea:hover{
+    border-color:rgb(206, 152, 122) ;
+    
+}
+.belower-top-sp-con input[type=text],input[type=email]{
+    width: 40%;
+    height: 5vh;
+    display: block;
+    
+}
+.belower-top-sp-con input[type=text]:hover,input[type=email]:hover{
+    border: 2px rgb(206, 152, 122) solid ;
+    
+}
+.belower-top-sp-con input[type=submit]{
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color:rgb(206, 152, 122) ;
+    margin-top: 2%;
+    border: none;
+    width: 7%;
+    height: 5vh;
+    margin-bottom: 2%;
+}
+.belower-top-sp-con input[type=submit]:hover{
+    cursor: pointer;
+}
+
+@media screen AND (max-width:1000px) {
+    div.Top-main-sp-con{
+        flex-direction: column !important ;
+    }
+       
+    .tm-left{
+    
+        height: 90vh;
+        width: 90%;
+        
+    }
+    .tm-right{
+  
+        height: 20vh;
+        width: 90%;
+    }
+    .middle-top-sp-con{
+        margin-top: 60%;
+       
+    }
+    .belower-top-sp-con{
+       width: 90%;
+
+    }
+    .belower-top-sp-con input[type=submit]{
+        width: 20%;
+        height: 5vh;
+    }
+}
+@media screen AND (max-width:760px) {
+    .middle-top-sp-con{
+        margin-top: 90%;
+        
+    }
+}
+@media screen AND (max-width:500px) {
+    .middle-top-sp-con{
+        margin-top: 110%;
+        
+    }
+}
+
+
+
+/* ---footer-- */
+
+
+
+.footer{
+    width: 100%;
+    background-color: #151515;
+    height: 50vh;
+    display: flex;
+}
+.low-footer{
+    width: 100%;
+    background-color: #151515;
+    height: 20vh;
+    margin-top: 0%;
+}
+.footer-left{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 22%;
+    color: rgb(134, 134, 134);
+    line-break: strict;
+}
+#fl-loc{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-phone{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-mail{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-time{
+    font-size: large;
+    line-height: 30px;
+}
+#fl-loc:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-phone:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-mail:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+#fl-time:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+i{
+    color: #CE987A;
+}
+.footer-mid1{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid1 h2{
+    color: white;
+}
+.footer-mid1 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid1 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-mid2{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 15%;
+}
+.footer-mid2 h2{
+    color: white;
+}
+.footer-mid2 ul li{
+    color:rgb(134, 134, 134);
+    font-size: larger;
+    line-height: 40px;
+}
+.footer-mid2 ul li:hover{
+    color: #CE987A;
+    cursor: pointer;
+}
+.footer-right{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 25%;
+}
+.footer-right h2{
+    color: white;
+}
+.footer-right p{
+    color:rgb(134, 134, 134);
+    font-size: large;
+}
+.footer-right input[type=email]{
+    height: 5vh;
+    width: 60%;
+    text-align: center;
+    font-size: large;
+    margin-top: 4%;
+}
+.footer-right input[type=button]{
+    color: white;
+    background-color: #CE987A;
+    height: 6vh;
+    width: 30%;
+    margin-left: 2%;
+}
+.footer-right input[type=button]:hover{
+   cursor: pointer;
+}
+.footer-right i{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: white;
+    transition: 0.2s linear;
+}
+.footer-right i:hover{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: xx-large;
+    color: #CE987A;
+    cursor: pointer;
+}
+#footer-hr{
+    color: #CE987A;
+}
+
+@media screen AND (max-width:1287px){
+    #fl-loc{
+        font-size: medium;
+    }
+    #fl-phone{
+        font-size: medium;
+    }
+    #fl-mail{
+        font-size: medium;
+    }
+    #fl-time{
+        font-size: medium;
+    }
+    
+}
+@media screen AND (max-width:1167px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .footer-left{
+      width: 90%;
+    }
+    .footer-mid1{
+      width: 90%;
+    }
+    .footer-mid2{
+      width: 90%;
+    }
+    .footer-right{
+      width: 90%;
+    }
+
+}

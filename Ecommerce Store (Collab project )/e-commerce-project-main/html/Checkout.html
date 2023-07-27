@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/Checkout.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4fcdc7c83f.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    <h1 id="check-head">CHECKOUT</h1>
+    <div class="upper-container">
+     <div class="uc-L">
+    <h2 id="check-head2">Shipping Address</h2>
+    <p class="uc-L1">
+        <label >First Name</label>
+        <input type="text" name="fname" id="fname">
+    </p>
+    <p class="uc-L2">
+    <label >Last Name</label>
+    <input type="text" name="lname" id="lname">
+    </p>
+    <p class="uc-L3">
+    <label >Country</label>
+    <select id="country" name="country">
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Pak">Pakistan</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="US">United state</option>
+        <option value="Albania">Albania</option>
+        <option value="Algeria">Algeria</option>
+        <option value="ind">India</option>
+            <option value="Afganistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Armenia">Armenia</option>
+            <option value="Aruba">Aruba</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Bahrain">Bahrain</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Barbados">Barbados</option>
+            <option value="Belarus">Belarus</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Belize">Belize</option>
+            <option value="Benin">Benin</option>
+            <option value="Bermuda">Bermuda</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Bonaire">Bonaire</option>
+            <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+            <option value="Botswana">Botswana</option>
+            <option value="Brazil">Brazil</option>
+            <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+            <option value="Brunei">Brunei</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+            <option value="Burundi">Burundi</option>
+            <option value="Cambodia">Cambodia</option>
+            <option value="Cameroon">Cameroon</option>
+            <option value="Canada">Canada</option>
+            <option value="Canary Islands">Canary Islands</option>
+            <option value="Cape Verde">Cape Verde</option>
+            <option value="Cayman Islands">Cayman Islands</option>
+            <option value="Central African Republic">Central African Republic</option>
+            <option value="Chad">Chad</option>
+            <option value="Channel Islands">Channel Islands</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Christmas Island">Christmas Island</option>
+            <option value="Cocos Island">Cocos Island</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Comoros">Comoros</option>
+    </select>
+    </p>
+    <p class="uc-L4">
+        <label >City</label>
+        <select name="Location" id="Location" required>
+            <option value="" disabled selected>Select The City</option>
+            <option value="Islamabad">Islamabad</option>
+            <option value="" disabled>Punjab Cities</option>
+            <option value="Ahmed Nager Chatha">Ahmed Nager Chatha</option>
+            <option value="Ahmadpur East">Ahmadpur East</option>
+            <option value="Ali Khan Abad">Ali Khan Abad</option>
+            <option value="Alipur">Alipur</option>
+            <option value="Arifwala">Arifwala</option>
+            <option value="Attock">Attock</option>
+            <option value="Bhera">Bhera</option>
+            <option value="Bhalwal">Bhalwal</option>
+            <option value="Bahawalnagar">Bahawalnagar</option>
+            <option value="Bahawalpur">Bahawalpur</option>
+            <option value="Bhakkar">Bhakkar</option>
+            <option value="Burewala">Burewala</option>
+            <option value="Chillianwala">Chillianwala</option>
+            <option value="Chakwal">Chakwal</option>
+            <option value="Chichawatni">Chichawatni</option>
+            <option value="Chiniot">Chiniot</option>
+            <option value="Chishtian">Chishtian</option>
+            <option value="Daska">Daska</option>
+            <option value="Darya Khan">Darya Khan</option>
+            <option value="Dera Ghazi Khan">Dera Ghazi Khan</option>
+            <option value="Dhaular">Dhaular</option>
+            <option value="Dina">Dina</option>
+            <option value="Dinga">Dinga</option>
+            <option value="Dipalpur">Dipalpur</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Ferozewala">Ferozewala</option>
+            <option value="Fateh Jhang">Fateh Jang</option>
+            <option value="Ghakhar Mandi">Ghakhar Mandi</option>
+            <option value="Gojra">Gojra</option>
+            <option value="Gujranwala">Gujranwala</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Gujar Khan">Gujar Khan</option>
+            <option value="Hafizabad">Hafizabad</option>
+            <option value="Haroonabad">Haroonabad</option>
+            <option value="Hasilpur">Hasilpur</option>
+            <option value="Haveli Lakha">Haveli Lakha</option>
+            <option value="Jatoi">Jatoi</option>
+            <option value="Jalalpur">Jalalpur</option>
+            <option value="Jattan">Jattan</option>
+            <option value="Jampur">Jampur</option>
+            <option value="Jaranwala">Jaranwala</option>
+            <option value="Jhang">Jhang</option>
+            <option value="Jhelum">Jhelum</option>
+            <option value="Kalabagh">Kalabagh</option>
+            <option value="Karor Lal Esan">Karor Lal Esan</option>
+            <option value="Kasur">Kasur</option>
+            </select>
+        </p>
+        <p class="uc-L3">
+            <label >Zip Code</label>
+            <input type="number" name="fname">
+        </p>
+        <p class="uc-L4">
+            <label > Address</label>
+            <input type="text" name="Address" id="ad">
+            </p>
+     </div>
+     <div class="uc-R">
+        <h2 id="yorder">Your Order</h2>
+        <div class="uc-R1">  
+      <img src="../image/item-order1.jpg" id="img1">
+      <p id="t-price">Total Price:<b>$45</b> </p>
+      
+    </div>
+    <div class="uc-R2"> 
+        <h5>
+            <a href="#">3D Dining Chair</a>
+        </h5>
+        <span>Black</span>
+        <p>,</p>
+        <span>XXL</span>
+        <h3 class="price">$45</h3>
+    </div>
+     </div>
+    </div>
+    <button id="pay-btn">PAYMENT </button>
+    <div class="lower-container">
+        <div class="upper-container">
+            <div class="bc-L">
+           <h2 id="check-head3">Payment Method</h2>
+           <p class="bc-L1">
+          <input type="submit" name="credit-btn" id="btn-credit" value="Credit card">
+          <button id="btn-paypal">paypal</button>
+           </p>
+          
+               <p class="bc-L2">
+                   <label >Card number</label>
+                   <input type="tel" name="fname" placeholder="xxx-xxx-xxx-xxx">
+               </p>
+            </p>
+            <p class="bc-L3">
+                <label >Date</label>
+                <select name="Dtae" id="date" required>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+                   <option value="11">11</option>
+                    </select>
+                </p>
+
+               <p class="bc-L4">
+                <label >Month</label>
+                <select id="country" name="country">
+                        <option value=''>--Select Month--</option>
+                        <option selected value='1'>Janaury</option>
+                        <option value='2'>February</option>
+                        <option value='3'>March</option>
+                        <option value='4'>April</option>
+                        <option value='5'>May</option>
+                        <option value='6'>June</option>
+                        <option value='7'>July</option>
+                        <option value='8'>August</option>
+                        <option value='9'>September</option>
+                        <option value='10'>October</option>
+                        <option value='11'>November</option>
+                        <option value='12'>December</option>
+                </select>
+                </p>
+               
+            </div>
+            <div class="uc-R">
+               <h2 id="yorder">Your Order</h2>
+               <div class="uc-R1">  
+             <img src="../image/item-order1.jpg" id="img1">
+             <p id="t-price">Total Price:<b>$45</b> </p>
+             
+           </div>
+           <div class="uc-R2"> 
+               <h5>
+                   <a href="#">3D Dining Chair</a>
+               </h5>
+               <span>Black</span>
+               <p>,</p>
+               <span>XXL</span>
+               <h3 class="price">$45</h3>
+           </div>
+            </div>
+           </div>
+    </div>
+    <input type="submit" name="bts-btn" id="btn-bts" value="Back to Shopping">
+    <button id="pay-now-btn">PAY NOW </button>
+
+    <section>
+        <div class="footer">
+          <div class="footer-left">
+            <img src="../image/logo-light (1).png" alt="">
+            <p id="fl-loc"><i class="fa-solid fa-location-dot" ></i> &nbsp; 45 Grand Central Terminal New York,NY 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1017 nited State USA</p>
+             <p id="fl-phone"><i class="fa-solid fa-phone"></i> &nbsp;(+123) 456 789 </p> 
+             <p id="fl-mail"><i class="fa-solid fa-envelope"></i> &nbsp;alihassan@gmail.com - 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mranx24@gmail.com</p>
+              <p id="fl-time"><i class="fa-solid fa-clock"></i>&nbsp;Mon-Sat 9:00pm - 5:00pm Sun : Closed</p>
+          </div>
+          <div class="footer-mid1">
+            
+                <h2>QUICK MENU</h2>
+                <ul>
+                  <li>New arrivals</li>
+                  <li>Life style</li>
+                  <li>Trousers</li>
+                  <li>Bags</li>
+                  <li>Shoes</li>
+                </ul>
+          </div>
+          <div class="footer-mid2">
+            <h2>INFORMATION</h2>
+                <ul>
+                  <li>FAQs</li>
+                  <li>Track Order</li>
+                  <li>Delivery</li>
+                  <li>Contact Us</li>
+                  <li>Return</li>
+                </ul>
+          </div>
+          <div class="footer-right">
+            <h2>NEWSLETTER</h2>
+            <p>Get notified of new products, limited releases, and more. </p>
+            <input type="email" placeholder="Your email">
+            <input type="button" value="SUBSCRIBE">
+            <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+    </section>
+</body>
+</html>
